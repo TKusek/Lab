@@ -6,8 +6,10 @@ Ovaj skup podataka sadrži informacije o tehnološkim kompanijama, uključujući
 
 Opis otvorene licencije: Creative Commons Zero (CC0 1.0 Universal)
 Naziv autora: Tomislav Kušek
+Izdavač: Tomislav Kušek
 Verzija skupa podataka: 1.0
 Jezik: Hrvatski
+Datum izdavanja: 27.10.2024.
 Opis atributa:
   company_id: Jedinstveni identifikator kompanije
   company_name: Naziv kompanije
