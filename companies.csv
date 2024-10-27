@@ -7,13 +7,13 @@ company_id,company_name,founder,established_year,headquarters,industry,number_of
 4444444444444444444,Green Solutions,Maja,2020,"Seattle, WA",Sustainability,50,800000,www.greensolutions.com,EcoFriendly Gadget,Sustainable tech solutions.
 4444444444444444444,Green Solutions,Maja,2020,"Seattle, WA",Sustainability,50,800000,www.greensolutions.com,Portable Charger 10000mAh,Sustainable tech solutions.
 5555555555555555555,Digital Innovations Co.,Luka,2022,"Los Angeles, CA",Digital Marketing,30,500000,www.digitalinnovations.com,Gaming Mouse X200,Digital marketing services.
-
-product_id,product_name,category,price,release_date,stock_quantity,rating,warranty_years,description
-1111111111111111111,SuperWidget Pro,Widgets,299.99,2023-06-15,Tech Company Inc.,1500,4.7,2,Advanced widget technology.
-2222222222222222222,EcoFriendly Gadget,Gadgets,89.99,2022-12-01,Tech Company Inc.,750,4.5,1,Eco-friendly and energy-saving.
-2222222222222222222,EcoFriendly Gadget,Gadgets,89.99,2022-12-01,Innovate LLC,750,4.5,1,Eco-friendly and energy-saving.
-2222222222222222222,EcoFriendly Gadget,Gadgets,89.99,2022-12-01,Green Solutions,750,4.5,1,Eco-friendly and energy-saving.
-3333333333333333333,SmartHome Assistant,Home Automation,129.99,2024-01-10,Innovate LLC,1000,4.9,3,Voice-controlled home assistant.
-3333333333333333333,SmartHome Assistant,Home Automation,129.99,2024-01-10,Future Inc.,1000,4.9,3,Voice-controlled home assistant.
-4444444444444444444,Gaming Mouse X200,Accessories,59.99,2023-08-05,Digital Innovations Co.,300,4.8,2,High-precision gaming mouse.
-5555555555555555555,Portable Charger 10000mAh,Chargers,29.99,2023-03-20,Green Solutions,500,4.6,1,Compact portable charger.
+6666666666666666666,NextGen Technologies,Mario,2012,"Chicago, IL",Technology,400,7000000,www.nextgentech.com,Virtual Reality Headset,Innovative solutions for the tech-savvy generation.
+6666666666666666666,NextGen Technologies,Mario,2012,"Chicago, IL",Technology,400,7000000,www.nextgentech.com,AI-Powered Drone,Innovative solutions for the tech-savvy generation.
+7777777777777777777,HealthPlus,Sara,2016,"Boston, MA",Healthcare,150,3000000,www.healthplus.com,Fitness Tracker Pro,Revolutionizing healthcare through technology.
+7777777777777777777,HealthPlus,Sara,2016,"Boston, MA",Healthcare,150,3000000,www.healthplus.com,Smart Medical Kit,Revolutionizing healthcare through technology.
+8888888888888888888,EcoTech,Nina,2018,"Portland, OR",Renewable Energy,200,4000000,www.ecotech.com,Solar Panel X100,Leading the way in sustainable energy solutions.
+8888888888888888888,EcoTech,Nina,2018,"Portland, OR",Renewable Energy,200,4000000,www.ecotech.com,Wind Turbine Model Z,Leading the way in sustainable energy solutions.
+9999999999999999999,CyberGuard,Petar,2014,"Austin, TX",Cybersecurity,350,6000000,www.cyberguard.com,SecureNet Firewall,Protecting businesses with advanced cybersecurity solutions.
+9999999999999999999,CyberGuard,Petar,2014,"Austin, TX",Cybersecurity,350,6000000,www.cyberguard.com,Data Protection Suite,Protecting businesses with advanced cybersecurity solutions.
+0000000000000000000,SmartHome Solutions,Ana,2021,"Miami, FL",Home Automation,100,2000000,www.smarthomesolutions.com,Automated Lighting System,Transforming homes with smart automation technology.
+0000000000000000000,SmartHome Solutions,Ana,2021,"Miami, FL",Home Automation,100,2000000,www.smarthomesolutions.com,Smart Thermostat 2.0,Transforming homes with smart automation technology.
