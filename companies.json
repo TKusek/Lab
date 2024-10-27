@@ -1,0 +1,187 @@
+{
+    "companies": [
+        {
+            "_id": {
+                "$oid": "671e2e5ad59e19f927cf792a"
+            },
+            "company_id": "1111111111111111111",
+            "company_name": "Tech Company Inc.",
+            "founder": "Ivan",
+            "established_year": 2010,
+            "headquarters": "San Francisco, CA",
+            "industry": "Software",
+            "number_of_employees": 250,
+            "annual_revenue": 5000000,
+            "website": "www.techcompany.com",
+            "products": [
+                "SuperWidget Pro",
+                "EcoFriendly Gadget"
+            ],
+            "description": "Software solutions for modern needs."
+        },
+        {
+            "_id": {
+                "$oid": "671e2e5ad59e19f927cf792b"
+            },
+            "company_id": "2222222222222222222",
+            "company_name": "Innovate LLC",
+            "founder": "Ana",
+            "established_year": 2015,
+            "headquarters": "Austin, TX",
+            "industry": "Hardware",
+            "number_of_employees": 100,
+            "annual_revenue": 2000000,
+            "website": "www.innovate.com",
+            "products": [
+                "EcoFriendly Gadget",
+                "SmartHome Assistant"
+            ],
+            "description": "Innovative hardware solutions."
+        },
+        {
+            "_id": {
+                "$oid": "671e2e5ad59e19f927cf792c"
+            },
+            "company_id": "3333333333333333333",
+            "company_name": "Future Inc.",
+            "founder": "Marko",
+            "established_year": 2018,
+            "headquarters": "New York, NY",
+            "industry": "AI and Machine Learning",
+            "number_of_employees": 75,
+            "annual_revenue": 1500000,
+            "website": "www.futureinc.com",
+            "products": [
+                "SmartHome Assistant"
+            ],
+            "description": "AI solutions for businesses."
+        },
+        {
+            "_id": {
+                "$oid": "671e2e5ad59e19f927cf792d"
+            },
+            "company_id": "4444444444444444444",
+            "company_name": "Green Solutions",
+            "founder": "Maja",
+            "established_year": 2020,
+            "headquarters": "Seattle, WA",
+            "industry": "Sustainability",
+            "number_of_employees": 50,
+            "annual_revenue": 800000,
+            "website": "www.greensolutions.com",
+            "products": [
+                "EcoFriendly Gadget",
+                "Portable Charger 10000mAh"
+            ],
+            "description": "Sustainable tech solutions."
+        },
+        {
+            "_id": {
+                "$oid": "671e2e5ad59e19f927cf792e"
+            },
+            "company_id": "5555555555555555555",
+            "company_name": "Digital Innovations Co.",
+            "founder": "Luka",
+            "established_year": 2022,
+            "headquarters": "Los Angeles, CA",
+            "industry": "Digital Marketing",
+            "number_of_employees": 30,
+            "annual_revenue": 500000,
+            "website": "www.digitalinnovations.com",
+            "products": [
+                "Gaming Mouse X200"
+            ],
+            "description": "Digital marketing services."
+        }
+    ],
+    "products": [
+        {
+            "_id": {
+                "$oid": "671e2e43d59e19f927cf7924"
+            },
+            "product_id": "1111111111111111111",
+            "product_name": "SuperWidget Pro",
+            "category": "Widgets",
+            "price": 299.99,
+            "release_date": "2023-06-15",
+            "companies": [
+                "Tech Company Inc."
+            ],
+            "stock_quantity": 1500,
+            "rating": 4.7,
+            "warranty_years": 2,
+            "description": "Advanced widget technology."
+        },
+        {
+            "_id": {
+                "$oid": "671e2e43d59e19f927cf7925"
+            },
+            "product_id": "2222222222222222222",
+            "product_name": "EcoFriendly Gadget",
+            "category": "Gadgets",
+            "price": 89.99,
+            "release_date": "2022-12-01",
+            "companies": [
+                "Tech Company Inc.",
+                "Innovate LLC",
+                "Green Solutions"
+            ],
+            "stock_quantity": 750,
+            "rating": 4.5,
+            "warranty_years": 1,
+            "description": "Eco-friendly and energy-saving."
+        },
+        {
+            "_id": {
+                "$oid": "671e2e43d59e19f927cf7926"
+            },
+            "product_id": "3333333333333333333",
+            "product_name": "SmartHome Assistant",
+            "category": "Home Automation",
+            "price": 129.99,
+            "release_date": "2024-01-10",
+            "companies": [
+                "Innovate LLC",
+                "Future Inc."
+            ],
+            "stock_quantity": 1000,
+            "rating": 4.9,
+            "warranty_years": 3,
+            "description": "Voice-controlled home assistant."
+        },
+        {
+            "_id": {
+                "$oid": "671e2e43d59e19f927cf7927"
+            },
+            "product_id": "4444444444444444444",
+            "product_name": "Gaming Mouse X200",
+            "category": "Accessories",
+            "price": 59.99,
+            "release_date": "2023-08-05",
+            "companies": [
+                "Digital Innovations Co."
+            ],
+            "stock_quantity": 300,
+            "rating": 4.8,
+            "warranty_years": 2,
+            "description": "High-precision gaming mouse."
+        },
+        {
+            "_id": {
+                "$oid": "671e2e43d59e19f927cf7928"
+            },
+            "product_id": "5555555555555555555",
+            "product_name": "Portable Charger 10000mAh",
+            "category": "Chargers",
+            "price": 29.99,
+            "release_date": "2023-03-20",
+            "companies": [
+                "Green Solutions"
+            ],
+            "stock_quantity": 500,
+            "rating": 4.6,
+            "warranty_years": 1,
+            "description": "Compact portable charger."
+        }
+    ]
+}
