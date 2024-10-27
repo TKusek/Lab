@@ -4,7 +4,7 @@ Ovaj skup podataka sadrži informacije o tehnološkim kompanijama, uključujući
 
 ## Metapodaci
 
-Opis otvorene licencije: Creative Commons Attribution 4.0 International (CC BY 4.0)
+Opis otvorene licencije: Creative Commons Zero (CC0 1.0 Universal)
 Naziv autora: Tomislav Kušek
 Verzija skupa podataka: 1.0
 Jezik: Hrvatski
