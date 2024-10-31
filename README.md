@@ -22,4 +22,3 @@ Opis atributa:
 - website: Web stranica kompanije  
 - products: Lista proizvoda koje kompanija nudi (niz stringova)  
 - description: Kratak opis kompanije  
-- description: Kratak opis proizvoda
