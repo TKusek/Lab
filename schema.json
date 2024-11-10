@@ -1,0 +1,73 @@
+{
+  "$id": "https://https://github.com/TKusek/Lab/schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Tehnološke Kompanije",
+  "description": "Skup podataka o tehnološkim kompanijama koji uključuje informacije o njihovim proizvodima, osnivačima, godinama osnivanja i drugim relevantnim podacima.",
+  "type": "array",
+  "items": [
+    "type": "object",
+    "properties": {
+      "company_id": {
+        "type": "string",
+        "description": "Jedinstveni identifikator kompanije"
+      },
+      "company_name": {
+        "type": "string",
+        "description": "Naziv kompanije"
+      },
+      "founder": {
+        "type": "string",
+        "description": "Osnivač kompanije"
+      },
+      "established_year": {
+        "type": "integer",
+        "description": "Godina osnivanja kompanije"
+      },
+      "headquarters": {
+        "type": "string",
+        "description": "Lokacija sjedišta kompanije"
+      },
+      "industry": {
+        "type": "string",
+        "description": "Industrija u kojoj kompanija posluje"
+      },
+      "number_of_employees": {
+        "type": "integer",
+        "description": "Broj zaposlenika u kompaniji"
+      },
+      "annual_revenue": {
+        "type": "number",
+        "description": "Godišnji prihod kompanije"
+      },
+      "website": {
+        "type": "string",
+        "format": "uri",
+        "description": "Web stranica kompanije"
+      },
+      "products": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "description": "Lista proizvoda koje kompanija nudi"
+      },
+      "description": {
+        "type": "string",
+        "description": "Kratak opis kompanije"
+      }
+    },
+    "required": [
+      "company_id",
+      "company_name",
+      "founder",
+      "established_year",
+      "headquarters",
+      "industry",
+      "number_of_employees",
+      "annual_revenue",
+      "website",
+      "products",
+      "description"
+    ]
+  ]
+}
