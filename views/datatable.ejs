@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <title>DataTable - Filtriranje</title>
+</head>
+<body>
+    <h1>Prikaz i filtriranje podataka</h1>
+
+    <!-- Form za unos ključne riječi i odabir atributa -->
+    <label for="filterKeyword">Unesite ključnu riječ:</label>
+    <input type="text" id="filterKeyword" placeholder="Unesite riječ za filtriranje">
+
+    <label for="filterAttribute">Odaberite atribut:</label>
+    <select id="filterAttribute">
+        <option value="0">Company Id</option>
+        <option value="1">Company name</option>
+        <option value="2">Founder</option>
+        <option value="3">Established year</option>
+        <option value="4">Headquarters</option>
+        <option value="5">Industry</option>
+        <option value="6">Number Of employees</option>
+        <option value="7">Annual revenue</option>
+        <option value="8">Website</option>
+        <option value="9">Product</option>
+        <option value="10">Description</option>
+    </select>
+
+    <button onclick="filtrirajPodatke()">Filtriraj podatke</button>
+
+    <!-- Tablica s podacima -->
+    <table id="dataTable" border="1" cellpadding="5" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Company Id</th>
+                <th>Company name</th>
+                <th>Founder</th>
+                <th>Established year</th>
+                <th>Headquarters</th>
+                <th>Industry</th>
+                <th>Number of employees</th>
+                <th>Annual revenue</th>
+                <th>Website</th>
+                <th>Product</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    <div class="download-buttons">
+        <button id="downloadJson" class="btn btn-primary">Preuzmi JSON</button>
+        <button id="downloadCsv" class="btn btn-primary">Preuzmi CSV</button>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/json2csv/4.0.0/json2csv.min.js"></script>
+    <script src="/scripts/javas.js"></script>
+</body>
+</html>
