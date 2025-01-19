@@ -1,0 +1,279 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "_id": "671e2e5ad59e19f927cf792a",
+    "company_id": "1233",
+    "company_name": {
+      "@type": "Name",
+      "value": "string"
+    },
+    "founder": {
+      "@type": "Person",
+      "name": "Ivo"
+    },
+    "foundingDate": {
+      "@type": "Date",
+      "value": 2014
+    },
+    "headquarters": "Zagreb",
+    "industry": "Farma",
+    "number_of_employees": 44,
+    "annual_revenue": 23323,
+    "website": "nesto.com",
+    "products": [
+      "proizvod1"
+    ],
+    "description": "Farma tvrkta"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "_id": "671e2e5ad59e19f927cf792b",
+    "company_id": "2222222222222222222",
+    "company_name": {
+      "@type": "Name",
+      "value": "Innovate LLC"
+    },
+    "founder": {
+      "@type": "Person",
+      "name": "Ana"
+    },
+    "foundingDate": {
+      "@type": "Date",
+      "value": 2015
+    },
+    "headquarters": "Austin, TX",
+    "industry": "Hardware",
+    "number_of_employees": 100,
+    "annual_revenue": 2000000,
+    "website": "www.innovate.com",
+    "products": [
+      "EcoFriendly Gadget",
+      "SmartHome Assistant"
+    ],
+    "description": "Innovative hardware solutions."
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "_id": "671e2e5ad59e19f927cf792c",
+    "company_id": "3333333333333333333",
+    "company_name": {
+      "@type": "Name",
+      "value": "Future Inc."
+    },
+    "founder": {
+      "@type": "Person",
+      "name": "Marko"
+    },
+    "foundingDate": {
+      "@type": "Date",
+      "value": 2018
+    },
+    "headquarters": "New York, NY",
+    "industry": "AI and Machine Learning",
+    "number_of_employees": 75,
+    "annual_revenue": 1500000,
+    "website": "www.futureinc.com",
+    "products": [
+      "SmartHome Assistant"
+    ],
+    "description": "AI solutions for businesses."
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "_id": "671e2e5ad59e19f927cf792d",
+    "company_id": "4444444444444444444",
+    "company_name": {
+      "@type": "Name",
+      "value": "Green Solutions"
+    },
+    "founder": {
+      "@type": "Person",
+      "name": "Maja"
+    },
+    "foundingDate": {
+      "@type": "Date",
+      "value": 2020
+    },
+    "headquarters": "Seattle, WA",
+    "industry": "Sustainability",
+    "number_of_employees": 50,
+    "annual_revenue": 800000,
+    "website": "www.greensolutions.com",
+    "products": [
+      "EcoFriendly Gadget",
+      "Portable Charger 10000mAh"
+    ],
+    "description": "Sustainable tech solutions."
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "_id": "671e2e5ad59e19f927cf792e",
+    "company_id": "5555555555555555555",
+    "company_name": {
+      "@type": "Name",
+      "value": "Digital Innovations Co."
+    },
+    "founder": {
+      "@type": "Person",
+      "name": "Luka"
+    },
+    "foundingDate": {
+      "@type": "Date",
+      "value": 2022
+    },
+    "headquarters": "Los Angeles, CA",
+    "industry": "Digital Marketing",
+    "number_of_employees": 30,
+    "annual_revenue": 500000,
+    "website": "www.digitalinnovations.com",
+    "products": [
+      "Gaming Mouse X200"
+    ],
+    "description": "Digital marketing services."
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "_id": "671e5660d59e19f927cf7930",
+    "company_id": "6666666666666666666",
+    "company_name": {
+      "@type": "Name",
+      "value": "NextGen Technologies"
+    },
+    "founder": {
+      "@type": "Person",
+      "name": "Mario"
+    },
+    "foundingDate": {
+      "@type": "Date",
+      "value": 2012
+    },
+    "headquarters": "Chicago, IL",
+    "industry": "Technology",
+    "number_of_employees": 400,
+    "annual_revenue": 7000000,
+    "website": "www.nextgentech.com",
+    "products": [
+      "Virtual Reality Headset",
+      "AI-Powered Drone"
+    ],
+    "description": "Innovative solutions for the tech-savvy generation."
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "_id": "671e5660d59e19f927cf7931",
+    "company_id": "7777777777777777777",
+    "company_name": {
+      "@type": "Name",
+      "value": "HealthPlus"
+    },
+    "founder": {
+      "@type": "Person",
+      "name": "Sara"
+    },
+    "foundingDate": {
+      "@type": "Date",
+      "value": 2016
+    },
+    "headquarters": "Boston, MA",
+    "industry": "Healthcare",
+    "number_of_employees": 150,
+    "annual_revenue": 3000000,
+    "website": "www.healthplus.com",
+    "products": [
+      "Fitness Tracker Pro",
+      "Smart Medical Kit"
+    ],
+    "description": "Revolutionizing healthcare through technology."
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "_id": "671e5660d59e19f927cf7932",
+    "company_id": "8888888888888888888",
+    "company_name": {
+      "@type": "Name",
+      "value": "EcoTech"
+    },
+    "founder": {
+      "@type": "Person",
+      "name": "Nina"
+    },
+    "foundingDate": {
+      "@type": "Date",
+      "value": 2018
+    },
+    "headquarters": "Portland, OR",
+    "industry": "Renewable Energy",
+    "number_of_employees": 200,
+    "annual_revenue": 4000000,
+    "website": "www.ecotech.com",
+    "products": [
+      "Solar Panel X100",
+      "Wind Turbine Model Z"
+    ],
+    "description": "Leading the way in sustainable energy solutions."
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "_id": "671e5660d59e19f927cf7933",
+    "company_id": "9999999999999999999",
+    "company_name": {
+      "@type": "Name",
+      "value": "CyberGuard"
+    },
+    "founder": {
+      "@type": "Person",
+      "name": "Petar"
+    },
+    "foundingDate": {
+      "@type": "Date",
+      "value": 2014
+    },
+    "headquarters": "Austin, TX",
+    "industry": "Cybersecurity",
+    "number_of_employees": 350,
+    "annual_revenue": 6000000,
+    "website": "www.cyberguard.com",
+    "products": [
+      "SecureNet Firewall",
+      "Data Protection Suite"
+    ],
+    "description": "Protecting businesses with advanced cybersecurity solutions."
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "_id": "671e5660d59e19f927cf7934",
+    "company_id": "123",
+    "company_name": {
+      "@type": "Name",
+      "value": "Updated Tech Company"
+    },
+    "founder": {
+      "@type": "Person",
+      "name": "John Doe"
+    },
+    "foundingDate": {
+      "@type": "Date",
+      "value": 2015
+    },
+    "headquarters": "New York, NY",
+    "industry": "Technology",
+    "number_of_employees": 500,
+    "annual_revenue": 10000000,
+    "website": "www.updatedtechcompany.com",
+    "products": [
+      "Software",
+      "Hardware"
+    ],
+    "description": "Innovative tech solutions."
+  }
+]

@@ -1,10 +1,11 @@
 
+
 let filteredCompanies = [];  // Globalna varijabla za filtrirane podatke
 
 
 async function dohvatiPodatke(){
     try {
-        const response = await fetch('/api/companies'); // Dohvaća podatke s backend-a
+        const response = await fetch('/api/companies/json'); // Dohvaća podatke s backend-a
         const companies = await response.json();
         return companies;
     } catch (error) {
@@ -20,9 +21,9 @@ async function popuniTablicu(companies) {
         const row = document.createElement('tr');
         row.innerHTML = `
             <td>${company.company_id}</td>
-            <td>${company.company_name}</td>
-            <td>${company.founder}</td>
-            <td>${company.established_year}</td>
+            <td>${company.company_name.value}</td>
+            <td>${company.founder.name}</td>
+            <td>${company.foundingDate.value}</td>
             <td>${company.headquarters}</td>
             <td>${company.industry}</td>
             <td>${company.number_of_employees}</td>
@@ -46,9 +47,9 @@ async function filtrirajPodatke() {
     filteredCompanies = companies.filter(company => {
         const attributes = [
             company.company_id,
-            company.company_name,
-            company.founder,
-            company.established_year,
+            company.company_name.value,
+            company.founder.name,
+            company.foundingDate.value,
             company.headquarters,
             company.industry,
             company.number_of_employees,
@@ -72,9 +73,9 @@ async function filtrirajPodatke() {
         const row = document.createElement('tr');
         row.innerHTML = `
             <td>${company.company_id}</td>
-            <td>${company.company_name}</td>
-            <td>${company.founder}</td>
-            <td>${company.established_year}</td>
+            <td>${company.company_name.value}</td>
+            <td>${company.founder.name}</td>
+            <td>${company.foundingDate.value}</td>
             <td>${company.headquarters}</td>
             <td>${company.industry}</td>
             <td>${company.number_of_employees}</td>
